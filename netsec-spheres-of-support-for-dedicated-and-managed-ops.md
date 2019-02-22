@@ -19,9 +19,20 @@ This article outlines our **Fanatical Support&reg;** of software and server conf
 The following types of web servers are supported in the indicated areas:
 
 |   | Feature | Cisco ASA | Juniper SRX |
-| --- | --- | --- | --- |
-| Interfaces |
-| NGINX | Yes | Yes <br>| Yes |
+| :---: |:--- | :--- | :--- |
+| Interfaces | VLAN tagged (Cisco trunk)<br/>--------------------------------------<br/>  VLAN untagged (Cisco access) <br/>--------------------------------------<br/>LACP bundling with number of interfaces is a power of 2<br/>---------------------------------------<br/>|Yes<br/>---------<br/>Yes<br/>---------<br/>Yes
+| NGINX | Yes | Yes \| Yes |
+
+
+|   | Feature | Cisco ASA | Juniper SRX |
+| :---: |:--- | :--- | :--- |
+| **Interfaces** | VLAN tagged (Cisco trunk)| Yes | Yes |
+||VLAN untagged (Cisco access)| Yes | Yes |
+||LACP bundling with number of interfaces is a power of 2| Yes | Yes |
+
+|Yes<br/>---------<br/>Yes<br/>---------<br/>Yes
+| NGINX | Yes | Yes | Yes |
+
 
 **Note**: Not all add-on modules are supported. Contact Rackspace Support for more information.
 
