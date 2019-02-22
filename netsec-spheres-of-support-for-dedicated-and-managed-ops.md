@@ -21,7 +21,7 @@ The following types of web servers are supported in the indicated areas:
 |   | Feature | Cisco ASA | Juniper SRX |
 | --- | --- | --- | --- |
 | Interfaces |
-| NGINX | Yes | Yes | Yes |
+| NGINX | Yes | Yes <br>| Yes |
 
 **Note**: Not all add-on modules are supported. Contact Rackspace Support for more information.
 
