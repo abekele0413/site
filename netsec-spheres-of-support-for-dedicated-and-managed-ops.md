@@ -13,26 +13,8 @@ product_url: dedicated-hosting
 
 This article outlines our **Fanatical Support&reg;** of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
 
-### Operating systems
 
-The following operating systems are supported for both Dedicated and Managed Operations:
-
-- CentOS&reg; 7
-- CentOS 6
-- Red Hat&reg; Enterprise Linux&reg; 7
-- Red Hat Enterprise Linux 6
-- Ubuntu&reg; 16.04 LTS (Xenial Xerus)
-- Ubuntu 14.04 LTS (Trusty Tahr)
-
-The following operating systems are supported only for Managed Operations:
-
-- Debian&reg; 9 (Stretch)
-- Debian 8 (Jessie)
-- Ubuntu 18.04 LTS (Bionic Beaver)
-
-**Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
-
-### Web servers
+### Firewalls
 
 The following types of web servers are supported in the indicated areas:
 
