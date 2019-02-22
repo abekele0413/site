@@ -18,10 +18,10 @@ This article outlines our **Fanatical Support&reg;** of software and server conf
 
 The following types of web servers are supported in the indicated areas:
 
-|   | Installation | Configuration | Troubleshooting | Patching |
-| --- | --- | --- | --- | --- |
-| Apache | Yes | Yes | Yes | Yes |
-| NGINX | Yes | Yes | Yes | Yes |
+|   | Feature | Cisco ASA | Juniper SRX |
+| --- | --- | --- | --- |
+| Interfaces |
+| NGINX | Yes | Yes | Yes |
 
 **Note**: Not all add-on modules are supported. Contact Rackspace Support for more information.
 
@@ -29,7 +29,7 @@ The following types of web servers are supported in the indicated areas:
 
 The following types of database servers are supported in the indicated areas:
 
-|   | Installation | Configuration | Troubleshooting | Patching |
+|    Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
 | MySQL and MariaDB | Yes | Yes | Yes | Yes |
 | Percona | Yes | Yes | Yes | Yes |
