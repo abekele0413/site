@@ -19,9 +19,9 @@ Terminology
 *    Supported - setup, configuration and troubleshooting.
 *   Partial - setup, limited types of configuration and full troubleshooting of the supported configurations.
 *  Reasonable endeavor - setup, attempt of configuration and attempt of troubleshooting.
-  *  (warning) Use warning below when configuring a reasonable endeavor feature. 
+*     (warning) Use warning below when configuring a reasonable endeavor feature. 
 *  Not supported - no setup or configuration provided.
-  *  (warning) If an unsupported feature has to be supported on a device, this one-off has to be mentioned in the DMG by the Account Manager or the Lead Tech.
+*     (warning) If an unsupported feature has to be supported on a device, this one-off has to be mentioned in the DMG by the Account Manager or the Lead Tech.
     
     
 ### Firewalls
