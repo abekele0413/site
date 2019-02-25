@@ -214,7 +214,48 @@ Note that International NetSec also supports devices and technologies that are m
 
 ^^ MPX - Product not launched, supportability is only planned at this stage.
   
+### Global load balancer
 
+| Feature | F5 GTM |  ADX GSLB | NetScaler VPX | NetScaler MPX|
+| :--- |:--- | :--- | :--- | :--- |
+| **Interfaces** |  VLAN tagged (Cisco trunk)|Yes|ALL GSLB currently reasonable endeavor|All GSLB currently unsupported|All GSLB currently unsupported|
+|VLAN untagged (Cisco access)  |Yes| |||     
+|LACP bundling with number of interfaces is a power of 2 |Yes|||| 
+|LACP bundling with number of interfaces is not a power of 2 |Reasonable endeavor||||
+| **Routing** | Static routes |Yes||||
+|Dynamic routing protocols |No||||
+| **IPv6** |  Static routes |Yes||||
+|Dynamic routing protocols |No||||
+| **Load balancing** |  Single Listener Address |Yes||||
+|Multiple Listener Addresses |Reasonable endeavor||||
+|Servers - BIG-IP System (Single)  |Yes||||
+|Servers - BIG-IP System (Redundant pair)  |Yes||||
+|Servers - Limit connections Settings  |Reasonable endeavor||||
+|Virtual Servers - Manual Configuration  |Yes||||
+|Virtual Server Discovery  |Reasonable endeavor||||
+|Wide IPs - Standard FQDN Names  |Yes||||
+|Wide IPs - Standard FQDN Alias Names  |Yes||||
+|Wide IPs - Single Pool, Multiple Virtual Server Members |Yes||||
+|Wide IPs - Multiple Pools |Reasonable endeavor||||
+|Algorithms - Static - Round Robin, Ratio (Weighted Round Robin), Global Availability  |Yes||||
+|Algorithms - Dynamic - Least Connections  |Yes||||
+|Algorithms - All Others |Reasonable endeavor||||
+| **DNS** | Authoritative Name Server for Specific Subdelegated Domains |Yes||||
+|Manual Modifying/adding DNS records via ZoneRunner  |Reasonable endeavor||||
+|Authoritative Name Server for all DNS Queries |No||||
+|Forwarding to another DNS Server  |No||||
+| **Scripting** | Scripted rules (iRules) |Reasonable endeavor||||
+| **Management** |  Buffered Logging  |Yes||||
+|Log shipping to log correlation device (Within customer's account)  |Yes||||
+|Custom Logging  |Reasonable endeavor||||
+|Log retention by Rackspace  |No||||
+|Logging - Log analysis (outside of troubleshooting) |No||||
+| **High availability (HA)** |  Synchronization Groups  |Yes||||
+|Redundant GTM Devices specified as primary and secondary DNS servers  |Yes||||
+| **Modes and modules** | Serial configuration  |Yes||||
+|Paralled configuration  |Yes||||
+|Standalone BigIP with GTM License |Yes||||
+|Shared BigIP with GTM and LTM Licenses  |Reasonable endeavor||||
 
 ### Cisco CSS
 End of support on September 30, 2014. Customers that continue using the platform will be in the Extended Lifecycle Support. All the support will be Reasonable endeavor.
