@@ -11,13 +11,15 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article outlines our **Fanatical Support&reg;** of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
+The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. It a pplies to Enterprise, SMB, US, International, unless otherwise noted.
+
+Note that International NetSec also supports devices and technologies that are maintained by Security Support in the US. The support level of these features is described separately in Security Support Spheres of Support.
 
 
 ### Terminology
 
-*    Supported - setup, configuration and troubleshooting.
-*   Partial - setup, limited types of configuration and full troubleshooting of the supported configurations.
+*  Supported - setup, configuration and troubleshooting.
+*  Partial - setup, limited types of configuration and full troubleshooting of the supported configurations.
 *  Reasonable endeavor - setup, attempt of configuration and attempt of troubleshooting.
    *   (warning) Use warning below when configuring a reasonable endeavor feature. 
 *  Not supported - no setup or configuration provided.
@@ -209,17 +211,11 @@ This article outlines our **Fanatical Support&reg;** of software and server conf
 | **SSL VPNs** |  SSL Client VPN on edge Big-IPs using APM module |Yes|N/A|No|No|
 | **SNI** | Server Name Indication  |Yes|Yes|Yes|Yes|
 
-
-
-
-
-
-
 ^ VPX - Product in EA soon to be LA
+
 ^^ MPX - Product not launched, supportability is only planned at this stage.
   
 
-**Note**: Not all add-on modules are supported. Contact Rackspace Support for more information.
 
 ### Database servers
 
