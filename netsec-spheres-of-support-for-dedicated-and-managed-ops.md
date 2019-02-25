@@ -10,7 +10,7 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. It applies to Enterprise, SMB, US, International, unless otherwise noted.
+The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. It a pplies to Enterprise, SMB, US, International, unless otherwise noted.
 
 Note that International NetSec also supports devices and technologies that are maintained by Security Support in the US. The support level of these features is described separately in Security Support Spheres of Support.
 
@@ -40,10 +40,10 @@ Note that International NetSec also supports devices and technologies that are m
 ||PAT (NAT overloading)| Yes | Yes |
 ||Policy NAT/PAT| Yes | Yes |
 ||DNS Doctoring| Yes | Yes |
-||Connection limits via static NAT| Yes | N/A |
+||Connection limits via static NAT| Yes |  |
 | **Packet filtering** |Layer 3/4 filtering ingress/egress| Yes | Yes |
 ||FQDN based filtering| Yes | Yes |
-||Outbound ACL| Yes | N/A |
+||Outbound ACL| Yes |  |
 | **DDoS Mitigation** |Connection limiting (Embryonic and/or established)  |Yes| Yes|
 ||Connection timeouts |Yes| Yes|
 ||TCP normalization modification  || Yes|
@@ -63,14 +63,14 @@ Note that International NetSec also supports devices and technologies that are m
 ||IPsec remote access - all traffic through VPN (tunnel all)  |Yes| |
 ||IPsec remote access - DNS server assignment |Yes| |
 ||IPsec remote access - Client certificate-based authentication || |
-||SSL VPN AnyConnect Plus |Yes|N/A|
-||SSL VPN - Mobile client (Plus license feature)  |Yes|N/A|
-||SSL VPN - Two-factor authentication |Yes|N/A|
+||SSL VPN AnyConnect Plus |Yes||
+||SSL VPN - Mobile client (Plus license feature)  |Yes||
+||SSL VPN - Two-factor authentication |Yes||
 | **Management** |  Buffered Logging  |Yes| Yes|
 ||Log shipping to log correlation device within customer's account  |Yes| Yes|
 ||SNMP read-only for customer |Yes| Yes|
 | **High Availability (HA)** |  Active/Standby (stateful and non-stateful) (clustering - SRX)<Br/>ASA 5510 and above, ASA-X 5508, 5515 and above |Yes|Yes|
-| **Modes and modules** | Mode - Multi-Context Routed |Yes|N/A|
+| **Modes and modules** | Mode - Multi-Context Routed |Yes||
 ||Mode - Routed |Yes| Yes|
 | **RackConnect** | RackConnect VLANs termination |Yes| |
 | **RackConnect Global** |  RackConnect Global Classic Static |Yes| Yes|
@@ -86,7 +86,7 @@ Note that International NetSec also supports devices and technologies that are m
 ||VLAN untagged (Cisco access)  |Yes|Yes|Yes|Yes|
 | **Routing** | Static Routes |Yes|Yes|Default route|Yes|
 | **IPv6** |  Static Routes |Yes|Yes| Default route|Yes|
-| **Packet filtering** |  Layer 3/4 Ingress/Egress |US - Yes |Yes|||
+| **Packet filtering** |  Layer 3/4 Ingress/Egress |US - Yes <Br/>Intl - |Yes|||
 | **NAT** | Static (one-for-one)  |Yes|Yes|||
 ||PAT (NAT overload)  |Yes|Yes|||
 ||Source NAT pools on Virtual Servers |Yes|Yes|Yes|Yes|
@@ -106,19 +106,19 @@ Note that International NetSec also supports devices and technologies that are m
 ||SSL Offloading  |Yes|Yes|Yes|Yes|
 ||Pools - Single Node: port combination (multiple ports on a server)  |Yes|Yes|Yes|Yes|
 ||Pools - Connection Limits (Pool, Node)  |Yes|Yes|Yes|Yes|
-||LB - Pools - Group monitor applied to all pool members  |Yes|N/A|Yes|Yes|
+||LB - Pools - Group monitor applied to all pool members  |Yes||Yes|Yes|
 ||LB - Pools - Individual monitors applied to each pool member  |Yes|Yes|Yes|Yes| 
-||LB - Pools - Combination of individual and group monitors across different pool members |Yes|N/A|Yes|Yes|
-||LB - Application Profiles - HTTP (OneConnect, Custom HTTP Profile settings) |Yes|N/A|Yes|Yes|
+||LB - Pools - Combination of individual and group monitors across different pool members |Yes||Yes|Yes|
+||LB - Application Profiles - HTTP (OneConnect, Custom HTTP Profile settings) |Yes||Yes|Yes|
 ||LB - Application Profiles - SSL (Client and Server) |Yes|Yes|Yes|Yes|
-||LB - Application Profiles - FTP (Active and Passive)  |Yes|N/A|Yes|Yes|
+||LB - Application Profiles - FTP (Active and Passive)  |Yes||Yes|Yes|
 ||Persistence - TCP - Source IP |Yes|Yes|Yes|Yes|
 ||Persistence - HTTP cookie: LB generated, server generated |Yes|Yes|Yes|Yes|
-||Persistence - HTTP Custom cookie name |Yes|N/A|Yes|Yes|
-||Persistence - Cookie encryption |Yes|N/A|Yes|Yes|
+||Persistence - HTTP Custom cookie name |Yes||Yes|Yes|
+||Persistence - Cookie encryption |Yes||Yes|Yes|
 ||Persistence - UDP - Source IP |Yes|Yes|Yes|Yes|
 ||LB - Virtual Servers - SNAT Pools |Yes|Yes|Yes|Yes|
-| **Scripting** | iRule 0006  |Yes||N/A|N/A|
+| **Scripting** | iRule 0006  |Yes||||
 | **Management** |  Logging - Local Buffered Logging  |Yes|Yes|Yes|Yes|
 ||Logging - Log shipping to log correlation device (Within customer's account)  |Yes|Yes|Yes|Yes|
 ||Management - SNMP read-only for customer  |Yes|Yes|Yes|Yes|
@@ -127,9 +127,9 @@ Note that International NetSec also supports devices and technologies that are m
 | **Modes and Modules** | Routed (Single and Multiple Route Domains) Default gateway for back end servers |Yes|Yes||Yes|
 ||Routed (Single and Multiple Route Domains) t the default gateway for back end servers |||||
 ||Multiple Segments behind LB |Yes|Yes||Yes<Br/>Interface filtering is |
-| **RackConnect** | RackConnect VLANs termination |Yes| Yes for RCv3 |||
+| **RackConnect** | RackConnect VLANs termination |Yes| for RCV2<Br/>Yes for RCv3 |||
 | **RackConnect Global** |  RackConnect Global Classic Static |Yes(AFM only)||||
-| **SSL VPNs** |  SSL Client VPN on edge Big-IPs using APM module |Yes|N/A|||
+| **SSL VPNs** |  SSL Client VPN on edge Big-IPs using APM module |Yes||||
 | **SNI** | Server Name Indication  |Yes|Yes|Yes|Yes|
 
 ^ VPX - Product in EA soon to be LA
