@@ -216,8 +216,8 @@ Note that International NetSec also supports devices and technologies that are m
   
 ### Global load balancer
 
-| Feature | F5 GTM |  ADX GSLB | NetScaler VPX | NetScaler MPX|
-| :--- |:--- | :--- | :--- | :--- |
+|| Feature | F5 GTM |  ADX GSLB | NetScaler VPX | NetScaler MPX|
+| :--- |:--- | :--- | :--- | :--- | :--- |
 | **Interfaces** |  VLAN tagged (Cisco trunk)|Yes|ALL GSLB currently reasonable endeavor|All GSLB currently unsupported|All GSLB currently unsupported|
 |VLAN untagged (Cisco access)  |Yes| |||     
 |LACP bundling with number of interfaces is a power of 2 |Yes|||| 
@@ -256,6 +256,7 @@ Note that International NetSec also supports devices and technologies that are m
 |Paralled configuration  |Yes||||
 |Standalone BigIP with GTM License |Yes||||
 |Shared BigIP with GTM and LTM Licenses  |Reasonable endeavor||||
+
 
 ### Cisco CSS
 End of support on September 30, 2014. Customers that continue using the platform will be in the Extended Lifecycle Support. All the support will be Reasonable endeavor.
