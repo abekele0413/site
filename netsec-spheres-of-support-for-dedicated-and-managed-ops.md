@@ -20,9 +20,9 @@ Note that International NetSec also supports devices and technologies that are m
 *  Supported - setup, configuration and troubleshooting.
 *  Partial - setup, limited types of configuration and full troubleshooting of the supported configurations.
 *  Reasonable endeavor - setup, attempt of configuration and attempt of troubleshooting.
-   *   (warning) Use warning below when configuring a reasonable endeavor feature. 
+   *   Use warning below when configuring a reasonable endeavor feature. 
 *  Not supported - no setup or configuration provided.
-   *   (warning) If an unsupported feature has to be supported on a device, this one-off has to be mentioned in the DMG by the Account Manager or the Lead Tech.
+   *   If an unsupported feature has to be supported on a device, this one-off has to be mentioned in the DMG by the Account Manager or the Lead Tech.
     
     
 ### Firewalls
@@ -217,10 +217,10 @@ Note that International NetSec also supports devices and technologies that are m
 
 
 ### Cisco CSS
-(warning) End of support on September 30, 2014. Customers that continue using the platform will be in the Extended Lifecycle Support. All the support will be Reasonable endeavor.
+End of support on September 30, 2014. Customers that continue using the platform will be in the Extended Lifecycle Support. All the support will be Reasonable endeavor.
 
 ### Redhill WebMux
-(warning) End of support. Customers that continue using the platform will be in the Extended Lifecycle Support . All the support will be Reasonable endeavor.
+End of support. Customers that continue using the platform will be in the Extended Lifecycle Support . All the support will be Reasonable endeavor.
 
 ### General topics
 | Feature | Support level | 
