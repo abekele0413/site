@@ -33,9 +33,10 @@ The following types of web servers are supported in the indicated areas:
 | **Interfaces** |VLAN tagged (Cisco trunk)| Yes | Yes |
 ||VLAN untagged (Cisco access)| Yes | Yes |
 ||LACP bundling with number of interfaces is a power of 2| Yes | Yes |
-||LACP bundling with number of interfaces is not a power of 2| Yes | Yes |
-| **Interfaces** |hjkljk2| Yes | Yes |
-
+||LACP bundling with number of interfaces is not a power of 2| No | No |
+| **Routing** |Static routing| Yes | Yes |
+||Static routing with IP SLA tracking| Yes | No |
+||Dynamic routing protocols OSPF, EIGRP, BGP| No | No |
 
 
 
