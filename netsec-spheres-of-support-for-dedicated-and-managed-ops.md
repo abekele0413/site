@@ -14,15 +14,19 @@ product_url: dedicated-hosting
 This article outlines our **Fanatical Support&reg;** of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
 
 
+Terminology
+
+*    Supported - setup, configuration and troubleshooting.
+*   Partial - setup, limited types of configuration and full troubleshooting of the supported configurations.
+*  Reasonable endeavor - setup, attempt of configuration and attempt of troubleshooting.
+  *  (warning) Use warning below when configuring a reasonable endeavor feature. 
+*  Not supported - no setup or configuration provided.
+  *  (warning) If an unsupported feature has to be supported on a device, this one-off has to be mentioned in the DMG by the Account Manager or the Lead Tech.
+    
+    
 ### Firewalls
 
 The following types of web servers are supported in the indicated areas:
-
-|   | Feature | Cisco ASA | Juniper SRX |
-| :---: |:--- | :--- | :--- |
-| Interfaces | VLAN tagged (Cisco trunk)<br/>--------------------------------------<br/>  VLAN untagged (Cisco access) <br/>--------------------------------------<br/>LACP bundling with number of interfaces is a power of 2<br/>---------------------------------------<br/>|Yes<br/>---------<br/>Yes<br/>---------<br/>Yes
-| NGINX | Yes | Yes \| Yes |
-
 
 |   | Feature | Cisco ASA | Juniper SRX |
 | :---: |:--- | :--- | :--- |
