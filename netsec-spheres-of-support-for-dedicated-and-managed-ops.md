@@ -115,7 +115,7 @@ This article outlines our **Fanatical Support&reg;** of software and server conf
 
 ### Load balancers
 
-|1| Feature | F5 LTM | Brocade ADX | NetScaler VPX^ | NetScaler MPX^^|
+| | Feature | F5 LTM | Brocade ADX | NetScaler VPX^ | NetScaler MPX^^|
 | :---: |:--- | :--- | :--- | :--- | :--- |
 | **Interfaces** |  VLAN tagged (Cisco trunk) |Yes|Yes|No|Yes|
 ||VLAN untagged (Cisco access)  |Yes|Yes|Yes|Yes|
@@ -174,7 +174,7 @@ This article outlines our **Fanatical Support&reg;** of software and server conf
 ||LB - Virtual Servers - SNAT Pools |Yes|Yes|Yes|Yes|
 ||LB - Virtual Servers - Traffic Cloning (client and server side) |RE|N/A|RE|RE|
 ||LB - Virtual Servers - Traffic Classification |No|No|No|No|
-| **Scripting** | iRule 0006  |Yes|No| Wiki Pending  Wiki Pending
+| **Scripting** | iRule 0006  |Yes|No|N/A|N/A|
 ||Standardized scripted rules (iRules, OpenScript, NetScaler policies)  |RE|No|RE|RE|
 ||Unstandardized scripted rules (iRules, OpenScript, NetScaler policies)  |RE|No|RE|RE|
 | **Management** |  Logging - Local Buffered Logging  |Yes|Yes|Yes|Yes|
