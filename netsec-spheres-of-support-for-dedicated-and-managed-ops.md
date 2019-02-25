@@ -10,7 +10,7 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. It a pplies to Enterprise, SMB, US, International, unless otherwise noted.
+The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. It applies to Enterprise, SMB, US, International, unless otherwise noted.
 
 Note that International NetSec also supports devices and technologies that are maintained by Security Support in the US. The support level of these features is described separately in Security Support Spheres of Support.
 
