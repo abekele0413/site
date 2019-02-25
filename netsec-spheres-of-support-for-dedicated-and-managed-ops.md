@@ -225,5 +225,5 @@ Note that International NetSec also supports devices and technologies that are m
 
 ### General topics
 | Feature | Support level | 
-| :---: |:--- |
+| :--- |:--- |
 | DDoS mitigation | Supported|
