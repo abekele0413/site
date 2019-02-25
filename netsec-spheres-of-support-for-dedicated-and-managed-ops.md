@@ -86,7 +86,7 @@ Note that International NetSec also supports devices and technologies that are m
 ||VLAN untagged (Cisco access)  |Yes|Yes|Yes|Yes|
 | **Routing** | Static Routes |Yes|Yes|Default route|Yes|
 | **IPv6** |  Static Routes |Yes|Yes| Default route|Yes|
-| **Packet filtering** |  Layer 3/4 Ingress/Egress |US - Yes <Br/>Intl - |Yes|||
+| **Packet filtering** |  Layer 3/4 Ingress/Egress |US - Yes |Yes|||
 | **NAT** | Static (one-for-one)  |Yes|Yes|||
 ||PAT (NAT overload)  |Yes|Yes|||
 ||Source NAT pools on Virtual Servers |Yes|Yes|Yes|Yes|
@@ -127,7 +127,7 @@ Note that International NetSec also supports devices and technologies that are m
 | **Modes and Modules** | Routed (Single and Multiple Route Domains) Default gateway for back end servers |Yes|Yes||Yes|
 ||Routed (Single and Multiple Route Domains) t the default gateway for back end servers |||||
 ||Multiple Segments behind LB |Yes|Yes||Yes<Br/>Interface filtering is |
-| **RackConnect** | RackConnect VLANs termination |Yes| for RCV2<Br/>Yes for RCv3 |||
+| **RackConnect** | RackConnect VLANs termination |Yes| Yes for RCv3 |||
 | **RackConnect Global** |  RackConnect Global Classic Static |Yes(AFM only)||||
 | **SSL VPNs** |  SSL Client VPN on edge Big-IPs using APM module |Yes|N/A|||
 | **SNI** | Server Name Indication  |Yes|Yes|Yes|Yes|
