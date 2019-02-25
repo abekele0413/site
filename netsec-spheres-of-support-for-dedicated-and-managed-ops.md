@@ -14,7 +14,7 @@ product_url: dedicated-hosting
 This article outlines our **Fanatical Support&reg;** of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
 
 
-Terminology
+### Terminology
 
 *    Supported - setup, configuration and troubleshooting.
 *   Partial - setup, limited types of configuration and full troubleshooting of the supported configurations.
@@ -30,12 +30,13 @@ The following types of web servers are supported in the indicated areas:
 
 |   | Feature | Cisco ASA | Juniper SRX |
 | :---: |:--- | :--- | :--- |
-| **Interfaces** | VLAN tagged (Cisco trunk)| Yes | Yes |
+| **Interfaces** |VLAN tagged (Cisco trunk)| Yes | Yes |
 ||VLAN untagged (Cisco access)| Yes | Yes |
 ||LACP bundling with number of interfaces is a power of 2| Yes | Yes |
+||LACP bundling with number of interfaces is not a power of 2| Yes | Yes |
+| **Interfaces** |hjkljk2| Yes | Yes |
 
-|Yes<br/>---------<br/>Yes<br/>---------<br/>Yes
-| NGINX | Yes | Yes | Yes |
+
 
 
 **Note**: Not all add-on modules are supported. Contact Rackspace Support for more information.
