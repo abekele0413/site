@@ -1,11 +1,10 @@
 ---
-permalink: linux-spheres-of-support-for-dedicated-and-managed-ops/
-audit_date: '2017-03-07'
-title: Linux Spheres of Support for Dedicated and Managed Operations
+permalink: netsec-spheres-of-support-for-dedicated-and-managed-ops
+title: NetSec Spheres of Support
 type: article
-created_date: '2017-03-03'
-created_by: Alex Juarez
-last_modified_date: '2018-12-17'
+created_date: '2019-02-25'
+created_by: Adrian Bekele
+last_modified_date: '2019-02-25'
 last_modified_by: Adrian Bekele
 product: Dedicated Hosting
 product_url: dedicated-hosting
