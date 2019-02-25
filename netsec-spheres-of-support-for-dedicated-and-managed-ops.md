@@ -223,9 +223,7 @@ Note that International NetSec also supports devices and technologies that are m
 ||LACP bundling with number of interfaces is a power of 2 |Yes|||| 
 ||LACP bundling with number of interfaces is not a power of 2 |Reasonable endeavor||||
 | **Routing** | Static routes |Yes||||
-||Dynamic routing protocols |No||||
 | **IPv6** |  Static routes |Yes||||
-||Dynamic routing protocols |No||||
 | **Load balancing** |  Single Listener Address |Yes||||
 ||Multiple Listener Addresses |Reasonable endeavor||||
 ||Servers - BIG-IP System (Single)  |Yes||||
@@ -265,6 +263,5 @@ End of support on September 30, 2014. Customers that continue using the platform
 End of support. Customers that continue using the platform will be in the Extended Lifecycle Support . All the support will be Reasonable endeavor.
 
 ### General topics
-| Feature | Support level | 
-| :--- |:--- |
+| Feature | Support le
 | DDoS mitigation | Supported|
