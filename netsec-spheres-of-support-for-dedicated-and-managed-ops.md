@@ -33,12 +33,18 @@ The following types of web servers are supported in the indicated areas:
 | **Interfaces** |VLAN tagged (Cisco trunk)| Yes | Yes |
 ||VLAN untagged (Cisco access)| Yes | Yes |
 ||LACP bundling with number of interfaces is a power of 2| Yes | Yes |
-||LACP bundling with number of interfaces is not a power of 2| No | No |
+||LACP bundling with number of interfaces is not a power of 2| RE | RE |
 | **Routing** |Static routing| Yes | Yes |
-||Static routing with IP SLA tracking| Yes | No |
-||Dynamic routing protocols OSPF, EIGRP, BGP| No | No |
-
-
+||Static routing with IP SLA tracking| Yes | RE |
+||Dynamic routing protocols OSPF, EIGRP, BGP| RE | RE |
+| **IPv6** |Static routing| Yes | Yes |
+||Static routing with IP SLA tracking| Yes | RE |
+||Dynamic routing protocols| No | No |
+| **NAT** |Static (one-to-one)| Yes | Yes |
+||PAT (NAT overloading)| Yes | Yes |
+||Policy NAT/PAT| Yes | Yes |
+||DNS Doctoring| Yes | Yes |
+||Connection limits via static NAT| Yes | N/A |
 
 **Note**: Not all add-on modules are supported. Contact Rackspace Support for more information.
 
