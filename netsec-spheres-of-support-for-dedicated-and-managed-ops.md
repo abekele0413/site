@@ -115,7 +115,7 @@ This article outlines our **Fanatical Support&reg;** of software and server conf
 
 ### Load balancers
 
-|   | Feature | F5 LTM | Brocade ADX | NetScaler VPX^ | NetScaler MPX^^|
+|1| Feature | F5 LTM | Brocade ADX | NetScaler VPX^ | NetScaler MPX^^|
 | :---: |:--- | :--- | :--- |
 | **Interfaces** |  VLAN tagged (Cisco trunk) |Yes|Yes|No|Yes|
 ||VLAN untagged (Cisco access)  |Yes|Yes|Yes|Yes|
