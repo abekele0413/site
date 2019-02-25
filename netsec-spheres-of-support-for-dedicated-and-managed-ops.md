@@ -46,6 +46,96 @@ The following types of web servers are supported in the indicated areas:
 ||DNS Doctoring| Yes | Yes |
 ||Connection limits via static NAT| Yes | N/A |
 
+
+
+|   | Feature | Cisco ASA | Juniper SRX |
+| :---: |:--- | :--- | :--- |
+| **Interfaces** |VLAN tagged (Cisco trunk)| Yes | Yes |
+||VLAN untagged (Cisco access)| Yes | Yes |
+||LACP bundling with number of interfaces is a power of 2| Yes | Yes |
+||LACP bundling with number of interfaces is not a power of 2| RE | RE |
+| **Routing** |Static routing| Yes | Yes |
+||Static routing with IP SLA tracking| Yes | RE |
+||Dynamic routing protocols OSPF, EIGRP, BGP| RE | RE |
+| **IPv6** |Static routing| Yes | Yes |
+||Static routing with IP SLA tracking| Yes | RE |
+||Dynamic routing protocols| No | No |
+| **NAT** |Static (one-to-one)| Yes | Yes |
+||PAT (NAT overloading)| Yes | Yes |
+||Policy NAT/PAT| Yes | Yes |
+||DNS Doctoring| Yes | Yes |
+||Connection limits via static NAT| Yes | N/A |
+| **Packet filtering** |Layer 3/4 filtering ingress/egress| Yes | Yes |
+||FQDN based filtering| Yes | Yes |
+||Outbound ACL| Yes | N/A |
+| **DDoS Mitigation** |Connection limiting (Embryonic and/or established)  |Yes| Yes|
+||Connection timeouts |Yes| Yes|
+||TCP normalization modification  |RE| Yes|
+||QoS |No |RE|
+||regex HTTP inspection |No| No|
+||Application inspection  |RE| Yes|
+| **VPN** |Route-based VPNs - BGP  |Yes| Yes|
+||Route-based VPNs - Static |Yes| Yes|
+||IPsec - IKEv2 L2L with PSK  |Yes| Yes|
+||IPsec LAN-to-LAN Layer 3/4 filtering  |Yes| Yes|
+||IPsec LAN-to-LAN Pre-shared keys authentication |Yes| Yes|
+||IPsec LAN-to-LAN Hub and spoke configuration  |Yes| Yes|
+||IPsec LAN-to-LAN Cert-based authentication  |RE|N/A|
+||IPsec DMVPN |No| No|
+||IPSec remote access - Juniper |N/A|N/A|
+||IPsec remote access with Cisco Client |No|N/A|
+||IPsec remote access with Apple OS X native IPsec client |RE| No|
+||IPsec remote access with Shrew Soft client  |RE| No|
+||IPsec remote access with group authentication |Yes| No|
+||IPsec remote access with group and user authentication  |Yes| No|
+||IPsec remote access with two-factor authentication  |Yes| No|
+||IPsec remote access - Multiple VPN groups |Yes| No|
+||IPsec remote access with layer 3/4 filtering  |Yes| No|
+||IPsec remote access - Split-tunneling |Yes| No|
+||IPsec remote access - all traffic through VPN (tunnel all)  |Yes| No|
+||IPsec remote access - DNS server assignment |Yes| No|
+||IPsec remote access - Client certificate-based authentication |RE| No|
+||IPsec remote access on Windows 8  |RE| No|
+||SSL VPN - Juniper |N/A|N/A|
+||SSL VPN AnyConnect Plus |Yes|N/A|
+||SSL VPN AnyConnect Apex |No|N/A|
+||SSL VPN - Mobile client (Plus license feature)  |Yes|N/A|
+||SSL VPN - Certificate authentication  |RE|N/A|
+||SSL VPN - Two-factor authentication |Yes|N/A|
+||SSL VPN - Clientless SSL VPN  |No|N/A|
+||SSL VPN - Secure desktop  |No|N/A|
+| **Management** |  Buffered Logging  |Yes| Yes|
+||Log shipping to log correlation device within customer's account  |Yes| Yes|
+||Custom logging, logging lists |RE| RE|
+||Log retention by Rackspace  |No| No|
+||Log analysis, outside of troubleshooting an issue |No| No|
+||Direct customer access if firewall is on TACACS |No| No|
+||SNMP read-only for customer |Yes| Yes|
+| **High Availability (HA)** |  Active/Standby (stateful and non-stateful) (clustering - SRX) |Yes (ASA 5510 and above, ASA-X 5508, 5515 and above) <Br/>
+No (ASA 5505)  |Yes|
+||Active/Active (stateful and non-stateful) |No| No|
+||Clustering of more than two units |No| No|
+| **Modes and modules** | Mode - Multi-Context Routed |Yes|N/A|
+||Mode - Routed |Yes| Yes|
+||Mode - Transparent  |No| No|
+||Modules/Configs - Threat-detection  |RE|N/A|
+||Modules/Configs - IPS Module  |No|N/A|
+||Modules/Configs - Cisco Unified Communications Proxy  |No|N/A|
+| **RackConnect** | RackConnect VLANs termination |Yes| No|
+| **RackConnect Global** |  RackConnect Global Classic Static |Yes| Yes|
+||RackConnect Global 2.0 Static - BGP |Yes| RE|
+||RackConnect Global 2.0 Dynamic - BGP  |RE| RE|
+||RackConnect Global 2.1 Static - BGP (with TOR)  |Yes| RE|
+||RackConnect Global 2.1 Static - BGP (without TOR) |RE| RE|
+||RackConnect Global 2.1 Dynamic - BGP  |RE| RE|
+||RackConnect Global Public |RE| RE|
+||RackConnect Global IPv6 |RE| RE|
+||RackConnect Global - Server→SVI (bypass FW) |RE| RE|
+| **Geolocation** | Block by Country  |RE| RE|
+| **DHCP** |    |=No|No|
+
+
+
 **Note**: Not all add-on modules are supported. Contact Rackspace Support for more information.
 
 ### Database servers
