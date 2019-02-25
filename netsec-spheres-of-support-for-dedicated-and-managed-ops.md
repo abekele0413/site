@@ -116,7 +116,7 @@ This article outlines our **Fanatical Support&reg;** of software and server conf
 ### Load balancers
 
 |1| Feature | F5 LTM | Brocade ADX | NetScaler VPX^ | NetScaler MPX^^|
-| :---: |:--- | :--- | :--- |
+| :---: |:--- | :--- | :--- | :--- | :--- |
 | **Interfaces** |  VLAN tagged (Cisco trunk) |Yes|Yes|No|Yes|
 ||VLAN untagged (Cisco access)  |Yes|Yes|Yes|Yes|
 ||LACP bundling with number of interfaces is a power of 2 |RE MAN|RE MAN|No|RE MAN|
