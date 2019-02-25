@@ -111,8 +111,8 @@ The following types of web servers are supported in the indicated areas:
 ||Log analysis, outside of troubleshooting an issue |No| No|
 ||Direct customer access if firewall is on TACACS |No| No|
 ||SNMP read-only for customer |Yes| Yes|
-| **High Availability (HA)** |  Active/Standby (stateful and non-stateful) (clustering - SRX)<Br/>ASA 5510 and above, ASA-X 5508, 5515 and above |Yes|No|
-||ASA 5505|Yes|N/A|
+| **High Availability (HA)** |  Active/Standby (stateful and non-stateful) (clustering - SRX)<Br/>ASA 5510 and above, ASA-X 5508, 5515 and above |Yes|Yes|
+||ASA 5505|No|N/A|
 ||Active/Active (stateful and non-stateful) |No| No|
 ||Clustering of more than two units |No| No|
 | **Modes and modules** | Mode - Multi-Context Routed |Yes|N/A|
