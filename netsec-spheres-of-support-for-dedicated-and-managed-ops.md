@@ -140,7 +140,7 @@ Note that International NetSec also supports devices and technologies that are m
 
 || Feature | F5 GTM |  ADX GSLB | NetScaler VPX | NetScaler MPX|
 | :--- |:--- | :---: | :---: | :---: | :---: |
-| **Interfaces** |  VLAN tagged (Cisco trunk)|✓|ALL GSLB currently reasonable endeavor|All GSLB currently unsupported|All GSLB currently unsupported|
+| **Interfaces** |  VLAN tagged (Cisco trunk)|✓||||
 ||VLAN untagged (Cisco access)  |✓| |||     
 ||LACP bundling with number of interfaces is a power of 2 |✓|||| 
 | **Routing** | Static routes |✓||||
