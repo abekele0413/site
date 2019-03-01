@@ -119,7 +119,7 @@ Note that International NetSec also supports devices and technologies that are m
 ||Persistence - Cookie encryption |✓||✓|✓|
 ||Persistence - UDP - Source IP |✓|✓|✓|✓|
 ||LB - Virtual Servers - SNAT Pools |✓|✓|✓|✓|
-| **Scripting** | iRule 0006  |✓||||
+| **Scripting** | iRules  |✓ (Limited)||||
 | **Management** |  Logging - Local Buffered Logging  |✓|✓|✓|✓|
 ||Logging - Log shipping to log correlation device (Within customer's account)  |✓|✓|✓|✓|
 ||Management - SNMP read-only for customer  |✓|✓|✓|✓|
