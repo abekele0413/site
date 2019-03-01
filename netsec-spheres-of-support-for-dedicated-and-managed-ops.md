@@ -42,7 +42,7 @@ Note that International NetSec also supports devices and technologies that are m
 ||DNS Doctoring| ✓ | ✓ |
 ||Connection limits via static NAT| ✓ |  |
 | **Packet filtering** |Layer 3/4 filtering ingress/egress| ✓ | ✓ |
-||FQDN based filtering| ✓ | ✓ |
+||FQDN based filtering| ✓ ASA 8.3+| ✓ |
 ||Outbound ACL| ✓ |  |
 | **DDoS Mitigation** |Connection limiting (Embryonic and/or established)  |✓| ✓|
 ||Connection timeouts |✓| ✓|
