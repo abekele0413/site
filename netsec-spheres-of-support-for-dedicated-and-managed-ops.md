@@ -126,7 +126,7 @@ Note that International NetSec also supports devices and technologies that are m
 | **High availability (HA)** |  High availability |✓ 1600 and above  |✓ ADX 1000 only |✓|✓|
 ||HA - Active/Standby |✓|✓|✓|✓|
 | **Modes and Modules** | Routed (Single and Multiple Route Domains) Default gateway for back end servers |✓|✓||✓|
-||Routed (Single and Multiple Route Domains) t the default gateway for back end servers |||||
+||Mode - Edge Net Device|✓||||
 ||Multiple Segments behind LB |✓|✓||✓<Br/>Interface filtering is |
 | **RackConnect** | RackConnect VLANs termination |✓|RCV2 - X<Br/>RCv3 - ✓|||
 | **RackConnect Global** |  RackConnect Global Classic Static |✓(AFM only)||||
