@@ -86,7 +86,7 @@ Note that International NetSec also supports devices and technologies that are m
 ||VLAN untagged (Cisco access)  |✓|✓|✓|✓|
 | **Routing** | Static Routes |✓|✓|Default route|✓|
 | **IPv6** |  Static Routes |✓|✓| Default route|✓|
-| **Packet filtering** |  Layer 3/4 Ingress/Egress |US - ✓ <Br/>Intl - |✓|||
+| **Packet filtering** |  Layer 3/4 Ingress/Egress |US - ✓ <Br/>Intl - X|✓|||
 | **NAT** | Static (one-for-one)  |✓|✓|||
 ||PAT (NAT overload)  |✓|✓|||
 ||Source NAT pools on Virtual Servers |✓|✓|✓|✓|
