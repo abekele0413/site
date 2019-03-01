@@ -62,7 +62,6 @@ Note that International NetSec also supports devices and technologies that are m
 ||IPsec remote access - Split-tunneling |✓| |
 ||IPsec remote access - all traffic through VPN (tunnel all)  |✓| |
 ||IPsec remote access - DNS server assignment |✓| |
-||IPsec remote access - Client certificate-based authentication || |
 ||SSL VPN AnyConnect Plus |✓||
 ||SSL VPN - Mobile client (Plus license feature)  |✓||
 ||SSL VPN - Two-factor authentication |✓||
