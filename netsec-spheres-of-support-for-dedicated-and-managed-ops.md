@@ -127,7 +127,7 @@ Note that International NetSec also supports devices and technologies that are m
 | **Modes and Modules** | Routed (Single and Multiple Route Domains) Default gateway for back end servers |✓|✓||✓|
 ||Routed (Single and Multiple Route Domains) t the default gateway for back end servers |||||
 ||Multiple Segments behind LB |✓|✓||✓<Br/>Interface filtering is |
-| **RackConnect** | RackConnect VLANs termination |✓| for RCV2<Br/>✓ for RCv3 |||
+| **RackConnect** | RackConnect VLANs termination |✓|RCV2 - X<Br/>RCv3 - ✓|||
 | **RackConnect Global** |  RackConnect Global Classic Static |✓(AFM only)||||
 | **SSL VPNs** |  SSL Client VPN on edge Big-IPs using APM module |✓||||
 | **SNI** | Server Name Indication  |✓|✓|✓|✓|
