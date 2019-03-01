@@ -106,6 +106,7 @@ Note that International NetSec also supports devices and technologies that are m
 ||SSL Offloading  |✓|✓|✓|✓|
 ||Pools - Single Node: port combination (multiple ports on a server)  |✓|✓|✓|✓|
 ||Pools - Connection Limits (Pool, Node)  |✓|✓|✓|✓|
+||Pools - Priority Group Activation |✓||||
 ||LB - Pools - Group monitor applied to all pool members  |✓||✓|✓|
 ||LB - Pools - Individual monitors applied to each pool member  |✓|✓|✓|✓| 
 ||LB - Pools - Combination of individual and group monitors across different pool members |✓||✓|✓|
