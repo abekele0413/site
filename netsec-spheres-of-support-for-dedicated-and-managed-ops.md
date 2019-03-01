@@ -171,5 +171,6 @@ End of support on September 30, 2014. Customers that continue using the platform
 End of support. Customers that continue using the platform will be in the Extended Lifecycle Support . All the support will be Reasonable endeavor.
 
 ### General topics
-| Feature | Support le
+| Feature | Support level | 
+| :--- |:--- |
 | DDoS mitigation | Supported|
