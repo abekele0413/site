@@ -123,7 +123,7 @@ The Spheres of Support lists the technologies and features in the Network Securi
 | **Management** |  Logging - Local Buffered Logging  |✓|✓|✓|✓|
 ||Logging - Log shipping to log correlation device (Within customer's account)  |✓|✓|✓|✓|
 ||Management - SNMP read-only for customer  |✓|✓|✓|✓|
-| **High availability (HA)** |  High availability |✓ 1600 |✓ ADX 1000 only |✓|✓|
+| **High availability (HA)** |  High availability |✓ |✓ ADX 1000 only |✓|✓|
 ||HA - Active/Standby |✓|✓|✓|✓|
 | **Modes and Modules** | Routed (Single and Multiple Route Domains) Default gateway for back end servers |✓|✓||✓|
 ||Mode - Edge Net Device|✓ with AFM||||
