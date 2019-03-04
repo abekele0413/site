@@ -3,29 +3,16 @@ permalink: netsec-spheres-of-support-for-dedicated-and-managed-ops
 title: NetSec Spheres of Support
 type: article
 created_date: '2019-02-25'
-created_by: Adrian Bekele
+created_by: NetSec Standardization Group
 last_modified_date: '2019-02-25'
 last_modified_by: Adrian Bekele
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. It applies to Enterprise, SMB, US, International, unless otherwise noted.
-
-Note that International NetSec also supports devices and technologies that are maintained by Security Support in the US. The support level of these features is described separately in Security Support Spheres of Support.
-
-
-### Terminology
-
-*  Supported - setup, configuration and troubleshooting.
-*  Partial - setup, limited types of configuration and full troubleshooting of the supported configurations.
-*  Reasonable endeavor - setup, attempt of configuration and attempt of troubleshooting.
-   *   Use warning below when configuring a reasonable endeavor feature. 
-*  Not supported - no setup or configuration provided.
-   *   If an unsupported feature has to be supported on a device, this one-off has to be mentioned in the DMG by the Account Manager or the Lead Tech.
-    
-    
-### Firewall Support:
+The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. 
+ 
+### Firewall support:
 * Monitoring and management of network firewalls
 * Customized patching, rollback capabilities and iOS Updates
 * Problem, incident, and change management
@@ -87,7 +74,7 @@ Note that International NetSec also supports devices and technologies that are m
 ||RackConnect Global 2.1 Static - BGP (with TOR)  |✓| |
 
 
-### Load balancers Support:
+### Load balancers support:
 * Monitoring and management of Load balancers
 * Problem, incident, and change management
 * Configuration changes on behalf of customer
@@ -146,7 +133,7 @@ Note that International NetSec also supports devices and technologies that are m
 | **SSL VPNs** |  SSL Client VPN on edge Big-IPs using APM module |✓||||
 | **SNI** | Server Name Indication  |✓|✓|✓|✓|
 
-^ VPX - Product in EA soon to be LA
+^ VPX - Product in early access soon to be limited access
 
 ^^ MPX - Product not launched, supportability is only planned at this stage.
   
@@ -182,7 +169,9 @@ Note that International NetSec also supports devices and technologies that are m
 End of support on September 30, 2014. Customers that continue using the platform will be in the Extended Lifecycle Support. All the support will be Reasonable endeavor.
 
 ### Redhill WebMux
-End of support. Customers that continue using the platform will be in the Extended Lifecycle Support . All the support will be Reasonable endeavor.
+End of support on September 1, 2014. Customers that continue using the platform will be in the Extended Lifecycle Support. All the support will be Reasonable endeavor.
+
+Note: Rackspace makes every effort to align our support dates for operating systems with the manufacturer’s support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms?_ga=2.83585110.1185508516.1551714471-1563606307.1544215242)
 
 ### General topics
 | Feature | Support level | 
