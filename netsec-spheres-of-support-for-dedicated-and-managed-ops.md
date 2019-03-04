@@ -25,7 +25,17 @@ Note that International NetSec also supports devices and technologies that are m
    *   If an unsupported feature has to be supported on a device, this one-off has to be mentioned in the DMG by the Account Manager or the Lead Tech.
     
     
-### Firewalls
+### Firewall Support:
+* Monitoring and management of network firewalls
+* Customized patching, rollback capabilities and iOS Updates
+* Problem, incident, and change management
+* Configuration changes on behalf of customer
+* Performance monitoring and tuning
+* Configuration and support of IPsec-compliant VPNs
+* Configuration and maintenance of firewall policies to restrict access to environments
+* Provision VLANs and private IP space
+* Managed VPN access
+* SSL certificate installation and troubleshooting
 
 |   | Feature | Cisco ASA | Juniper SRX |
 | :---: |:--- | :---: | :---: |
@@ -77,7 +87,11 @@ Note that International NetSec also supports devices and technologies that are m
 ||RackConnect Global 2.1 Static - BGP (with TOR)  |✓| |
 
 
-### Load balancers
+### Load balancers Support:
+* Monitoring and management of Load balancers
+* Problem, incident, and change management
+* Configuration changes on behalf of customer
+* Performance monitoring and tuning
 
 | | Feature | F5 LTM | Brocade ADX | NetScaler VPX^ | NetScaler MPX^^|
 | :---: |:--- | :---: | :---: | :---: | :---: |
