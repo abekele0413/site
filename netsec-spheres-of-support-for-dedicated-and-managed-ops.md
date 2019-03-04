@@ -175,8 +175,8 @@ Note: Rackspace makes every effort to align our support dates for operating syst
 
 ### General topics
 | Feature | Support level | 
-| :--- |:--- |
-| DDoS mitigation | Supported|
+| :--- |:---: |
+| DDoS mitigation |✓|
 
 ### Disclaimer
 ### The information contained in this document is a general introduction to the Rackspace Services and does not include any legal commitment on the part of Rackspace.
