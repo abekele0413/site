@@ -74,7 +74,7 @@ The Spheres of Support lists the technologies and features in the Network Securi
 ||RackConnect Global 2.1 Static - BGP (with TOR)  |✓| |
 
 
-### Load balancers support:
+### Load balancer support:
 * Monitoring and management of Load balancers
 * Problem, incident, and change management
 * Configuration changes on behalf of the customer
